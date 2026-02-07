@@ -29,7 +29,7 @@ const ProductDetails = () => {
       : product.price;
     const message = `Hi! I'm interested in ordering the ${product.name}${selectedSize ? ` in size ${selectedSize}` : ''}. Price: ${priceToShow} EGP`;
     // Egyptian number 01065778438 -> international format 201065778438
-    window.open(`https://wa.me/201065778438?text=${encodeURIComponent(message)}`, '_blank');
+    window.open(`https://wa.me/201271163626?text=${encodeURIComponent(message)}`, '_blank');
   };
 
   const handleInstagramOrder = () => {
